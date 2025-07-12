@@ -53,98 +53,90 @@ The pipeline follows a modern data stack architecture, ensuring modularity and s
 - **Containerization:** Docker, Docker Compose
 - **CI/CD:** GitHub Actions
 
+## Quick Start
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/medical_insights.git
+   cd medical_insights
+   ```
+
+2. **Set up environment variables:**
+   - Copy `.env.example` to `.env` and fill in your credentials.
+
+3. **Build and start the containers:**
+   ```sh
+   docker-compose up --build -d
+   ```
+
+4. **Run the Telegram scraper:**
+   ```sh
+   docker-compose exec app python src/scrape/telegram_scraper.py
+   ```
+
+5. **Run dbt transformations:**
+   ```sh
+   docker-compose exec app dbt run --project-dir /app/src/dbt
+   ```
+
+6. **View dbt documentation:**
+   ```sh
+   docker-compose exec app dbt docs serve --project-dir /app/src/dbt --host 0.0.0.0 --profiles-dir /app/src/dbt
+   ```
+   Open [http://localhost:8080](http://localhost:8080) in your browser.
+
 ## Project Structure
 
-```
-medical_insights/
-├── .github/            # CI/CD workflows
-├── data/               # Raw data (ignored by git)
-├── src/
-│   ├── api/            # FastAPI application
-│   ├── dbt/            # dbt models and tests
-│   ├── enrichment/     # YOLOv8 image enrichment scripts
-│   ├── orchestration/  # Dagster pipeline definitions
-│   └── scrape/         # Telegram scraper
-├── tests/              # Unit and integration tests
-├── .env                # Environment variables (local)
-├── .gitignore
-├── docker-compose.yml
-├── Dockerfile
-├── requirements.txt
-└── README.md
-```
+- `src/scrape/` — Telegram scraping scripts
+- `src/dbt/` — dbt models for data transformation
+- `src/enrichment/` — YOLOv8 enrichment scripts (to be implemented)
+- `src/api/` — FastAPI analytics API (to be implemented)
+- `src/orchestration/` — Dagster orchestration (to be implemented)
+- `data/` — Raw and processed data (ignored by git)
+- `tests/` — Unit and integration tests
 
-## Getting Started
+## How it Works
 
-### Prerequisites
+1. **Scrape**: Extract messages and images from Telegram channels.
+2. **Store**: Save raw data as JSON and in PostgreSQL.
+3. **Transform**: Use dbt to clean, deduplicate, and model data in a star schema.
+4. **Enrich**: (Planned) Use YOLOv8 to analyze images.
+5. **Serve**: (Planned) Expose analytics via FastAPI.
+6. **Orchestrate**: (Planned) Use Dagster for scheduling and monitoring.
 
-- Docker and Docker Compose
-- Git
-- Python 3.10+ (for local development outside Docker)
+## Sample Data Insights
 
-### Installation
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/your-username/medical_insights.git
-    cd medical_insights
-    ```
-
-2.  **Create the environment file:**
-    Duplicate the `.env.example` to `.env` and fill in your credentials.
-    ```bash
-    cp .env.example .env
-    ```
-    You will need to provide:
-    - `TELEGRAM_API_ID` and `TELEGRAM_API_HASH`: Your Telegram API credentials.
-    - `DATABASE_URL`: The connection string for the PostgreSQL database (defaults should work with Docker).
-
-3.  **Build and run the containers:**
-    ```bash
-    docker-compose up --build -d
-    ```
-    This command will build the Docker image, start the application and database containers, and run the services in the background.
-
-## Usage
-
-### Running the Pipeline
-
-The data pipeline is orchestrated by Dagster. Once the containers are running, you can access the Dagster UI to monitor and trigger pipeline runs.
-
-- **Dagster UI:** [http://localhost:3000](http://localhost:3000)
-
-From the UI, you can manually execute the `medical_insights_job` or wait for its scheduled runs.
-
-### Accessing the API
-
-The FastAPI application provides several endpoints for accessing the processed data.
-
-- **API Docs (Swagger UI):** [http://localhost:8000/docs](http://localhost:8000/docs)
-
-#### Example Endpoints:
-
-- **Get Top 10 Mentioned Products:**
-  ```bash
-  curl http://localhost:8000/api/reports/top-products?limit=10
+- **Total messages scraped:** Over 2,000
+- **Channels covered:** Thequorachannel, lobelia4cosmetics, tikvahpharma, tenamereja, CheMed123
+- **Images downloaded:** Over 150
+- **Most mentioned products:** paracetamol, amoxicillin, ibuprofen, diclofenac, coartem, albendazole, ORS, syrup, tablet, capsule, suspension, injection, vaccine, antimalarial, antibiotic, antifungal, antiviral, cream, pill, etc.
+- **Deduplication:** All messages are deduplicated per channel and message ID.
+- **Data quality:** All dbt tests pass except for a single real-world missing date (flagged for transparency).
+- **Example log output:**
+  ```
+  2025-07-12 06:39:00,573 - INFO - Inserted message 50020 from tenamereja into DB.
+  2025-07-12 06:39:05,718 - INFO - Inserted message 18532 from lobelia4cosmetics into DB.
+  2025-07-12 06:39:07,020 - INFO - Downloaded image 97 from CheMed123
   ```
 
-- **Get Channel Activity:**
-  ```bash
-  curl http://localhost:8000/api/channels/Chemed/activity
+## Usage Examples
+
+- **Run all dbt tests:**
+  ```sh
+  docker-compose exec app dbt test --project-dir /app/src/dbt
   ```
-
-- **Search Messages:**
-  ```bash
-  curl http://localhost:8000/api/search/messages?query=paracetamol
+- **Generate and view dbt documentation:**
+  ```sh
+  docker-compose exec app dbt docs generate --project-dir /app/src/dbt
+  docker-compose exec app dbt docs serve --project-dir /app/src/dbt --host 0.0.0.0 --profiles-dir /app/src/dbt
   ```
+  Then open [http://localhost:8080](http://localhost:8080) in your browser.
 
-## Running Tests
+## Troubleshooting
 
-To run the entire test suite (unit and integration tests), execute the following command:
-
-```bash
-docker-compose exec app pytest
-```
+- **dbt docs not accessible?** Make sure port 8080 is exposed in `docker-compose.yml` and use `--host 0.0.0.0`.
+- **Database connection errors?** Ensure containers are running and `.env` is configured.
+- **Telegram login issues?** Double-check your API credentials and session file.
 
 ## Data Model (Star Schema)
 
