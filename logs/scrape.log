@@ -3431,3 +3431,821 @@
 2025-07-12 06:39:47,899 - INFO - Scraping finished.
 2025-07-12 06:39:47,900 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
 2025-07-12 06:39:47,900 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-07-12 11:01:17,166 - INFO - Database schema and table verified.
+2025-07-12 11:01:17,209 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-07-12 11:01:17,320 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-07-12 11:01:18,268 - INFO - Client created and authenticated. Scraping will begin shortly.
+2025-07-12 11:01:18,269 - INFO - Scraping channel: CheMed123
+2025-07-12 11:01:18,965 - INFO - Inserted message 97 from CheMed123 into DB.
+2025-07-12 11:01:19,024 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:19,377 - INFO - Downloaded image 97 from CheMed123
+2025-07-12 11:01:19,439 - INFO - Inserted message 96 from CheMed123 into DB.
+2025-07-12 11:01:19,500 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:19,934 - INFO - Downloaded image 96 from CheMed123
+2025-07-12 11:01:20,029 - INFO - Inserted message 95 from CheMed123 into DB.
+2025-07-12 11:01:20,115 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:20,331 - INFO - Downloaded image 95 from CheMed123
+2025-07-12 11:01:20,415 - INFO - Inserted message 94 from CheMed123 into DB.
+2025-07-12 11:01:20,504 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:20,720 - INFO - Downloaded image 94 from CheMed123
+2025-07-12 11:01:20,801 - INFO - Inserted message 93 from CheMed123 into DB.
+2025-07-12 11:01:20,867 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:21,248 - INFO - Downloaded image 93 from CheMed123
+2025-07-12 11:01:21,325 - INFO - Inserted message 92 from CheMed123 into DB.
+2025-07-12 11:01:21,407 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:21,804 - INFO - Downloaded image 92 from CheMed123
+2025-07-12 11:01:21,884 - INFO - Inserted message 91 from CheMed123 into DB.
+2025-07-12 11:01:21,969 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:22,162 - INFO - Downloaded image 91 from CheMed123
+2025-07-12 11:01:22,232 - INFO - Inserted message 90 from CheMed123 into DB.
+2025-07-12 11:01:22,328 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:22,730 - INFO - Downloaded image 90 from CheMed123
+2025-07-12 11:01:22,797 - INFO - Inserted message 89 from CheMed123 into DB.
+2025-07-12 11:01:22,843 - INFO - Inserted message 88 from CheMed123 into DB.
+2025-07-12 11:01:22,913 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:23,269 - INFO - Downloaded image 88 from CheMed123
+2025-07-12 11:01:23,326 - INFO - Inserted message 87 from CheMed123 into DB.
+2025-07-12 11:01:23,404 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:23,844 - INFO - Downloaded image 87 from CheMed123
+2025-07-12 11:01:23,923 - INFO - Inserted message 86 from CheMed123 into DB.
+2025-07-12 11:01:23,991 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:24,452 - INFO - Downloaded image 86 from CheMed123
+2025-07-12 11:01:24,535 - INFO - Inserted message 85 from CheMed123 into DB.
+2025-07-12 11:01:24,618 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:24,800 - INFO - Downloaded image 85 from CheMed123
+2025-07-12 11:01:24,885 - INFO - Inserted message 82 from CheMed123 into DB.
+2025-07-12 11:01:24,966 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:25,223 - INFO - Downloaded image 82 from CheMed123
+2025-07-12 11:01:25,309 - INFO - Inserted message 81 from CheMed123 into DB.
+2025-07-12 11:01:25,393 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:25,906 - INFO - Downloaded image 81 from CheMed123
+2025-07-12 11:01:25,980 - INFO - Inserted message 80 from CheMed123 into DB.
+2025-07-12 11:01:26,059 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:26,300 - INFO - Downloaded image 80 from CheMed123
+2025-07-12 11:01:26,370 - INFO - Inserted message 79 from CheMed123 into DB.
+2025-07-12 11:01:26,448 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:26,998 - INFO - Downloaded image 79 from CheMed123
+2025-07-12 11:01:27,074 - INFO - Inserted message 78 from CheMed123 into DB.
+2025-07-12 11:01:27,157 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:27,861 - INFO - Downloaded image 78 from CheMed123
+2025-07-12 11:01:27,959 - INFO - Inserted message 77 from CheMed123 into DB.
+2025-07-12 11:01:28,014 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:28,466 - INFO - Downloaded image 77 from CheMed123
+2025-07-12 11:01:28,552 - INFO - Inserted message 76 from CheMed123 into DB.
+2025-07-12 11:01:28,629 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:29,063 - INFO - Downloaded image 76 from CheMed123
+2025-07-12 11:01:29,140 - INFO - Inserted message 75 from CheMed123 into DB.
+2025-07-12 11:01:29,217 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:29,578 - INFO - Downloaded image 75 from CheMed123
+2025-07-12 11:01:29,652 - INFO - Inserted message 74 from CheMed123 into DB.
+2025-07-12 11:01:29,741 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:30,024 - INFO - Downloaded image 74 from CheMed123
+2025-07-12 11:01:30,099 - INFO - Inserted message 71 from CheMed123 into DB.
+2025-07-12 11:01:30,171 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:30,515 - INFO - Downloaded image 71 from CheMed123
+2025-07-12 11:01:30,588 - INFO - Inserted message 70 from CheMed123 into DB.
+2025-07-12 11:01:30,667 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:31,035 - INFO - Downloaded image 70 from CheMed123
+2025-07-12 11:01:31,094 - INFO - Inserted message 67 from CheMed123 into DB.
+2025-07-12 11:01:31,142 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:31,542 - INFO - Downloaded image 67 from CheMed123
+2025-07-12 11:01:31,604 - INFO - Inserted message 64 from CheMed123 into DB.
+2025-07-12 11:01:31,667 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:32,090 - INFO - Downloaded image 64 from CheMed123
+2025-07-12 11:01:32,138 - INFO - Inserted message 62 from CheMed123 into DB.
+2025-07-12 11:01:32,195 - INFO - Inserted message 60 from CheMed123 into DB.
+2025-07-12 11:01:32,276 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:32,501 - INFO - Downloaded image 60 from CheMed123
+2025-07-12 11:01:32,581 - INFO - Inserted message 59 from CheMed123 into DB.
+2025-07-12 11:01:32,653 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:32,886 - INFO - Downloaded image 59 from CheMed123
+2025-07-12 11:01:32,968 - INFO - Inserted message 58 from CheMed123 into DB.
+2025-07-12 11:01:33,045 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:33,443 - INFO - Downloaded image 58 from CheMed123
+2025-07-12 11:01:33,536 - INFO - Inserted message 57 from CheMed123 into DB.
+2025-07-12 11:01:33,621 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:34,135 - INFO - Downloaded image 57 from CheMed123
+2025-07-12 11:01:34,208 - INFO - Inserted message 56 from CheMed123 into DB.
+2025-07-12 11:01:34,281 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:34,823 - INFO - Downloaded image 56 from CheMed123
+2025-07-12 11:01:34,901 - INFO - Inserted message 55 from CheMed123 into DB.
+2025-07-12 11:01:34,966 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:35,404 - INFO - Downloaded image 55 from CheMed123
+2025-07-12 11:01:35,481 - INFO - Inserted message 53 from CheMed123 into DB.
+2025-07-12 11:01:35,543 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:35,916 - INFO - Downloaded image 53 from CheMed123
+2025-07-12 11:01:35,990 - INFO - Inserted message 52 from CheMed123 into DB.
+2025-07-12 11:01:36,070 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:36,270 - INFO - Downloaded image 52 from CheMed123
+2025-07-12 11:01:36,347 - INFO - Inserted message 51 from CheMed123 into DB.
+2025-07-12 11:01:36,404 - INFO - Inserted message 50 from CheMed123 into DB.
+2025-07-12 11:01:36,503 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:36,735 - INFO - Downloaded image 50 from CheMed123
+2025-07-12 11:01:36,811 - INFO - Inserted message 49 from CheMed123 into DB.
+2025-07-12 11:01:36,880 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:37,104 - INFO - Downloaded image 49 from CheMed123
+2025-07-12 11:01:37,180 - INFO - Inserted message 48 from CheMed123 into DB.
+2025-07-12 11:01:37,249 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:37,652 - INFO - Downloaded image 48 from CheMed123
+2025-07-12 11:01:37,723 - INFO - Inserted message 46 from CheMed123 into DB.
+2025-07-12 11:01:37,800 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:38,069 - INFO - Downloaded image 46 from CheMed123
+2025-07-12 11:01:38,123 - INFO - Inserted message 45 from CheMed123 into DB.
+2025-07-12 11:01:38,168 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:38,369 - INFO - Downloaded image 45 from CheMed123
+2025-07-12 11:01:38,404 - INFO - Inserted message 44 from CheMed123 into DB.
+2025-07-12 11:01:38,462 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:38,656 - INFO - Downloaded image 44 from CheMed123
+2025-07-12 11:01:38,702 - INFO - Inserted message 43 from CheMed123 into DB.
+2025-07-12 11:01:38,766 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:38,984 - INFO - Downloaded image 43 from CheMed123
+2025-07-12 11:01:39,037 - INFO - Inserted message 41 from CheMed123 into DB.
+2025-07-12 11:01:39,097 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:39,452 - INFO - Downloaded image 41 from CheMed123
+2025-07-12 11:01:39,518 - INFO - Inserted message 40 from CheMed123 into DB.
+2025-07-12 11:01:39,564 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:39,765 - INFO - Downloaded image 40 from CheMed123
+2025-07-12 11:01:39,829 - INFO - Inserted message 39 from CheMed123 into DB.
+2025-07-12 11:01:39,892 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:40,088 - INFO - Downloaded image 39 from CheMed123
+2025-07-12 11:01:40,138 - INFO - Inserted message 38 from CheMed123 into DB.
+2025-07-12 11:01:40,204 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:40,426 - INFO - Downloaded image 38 from CheMed123
+2025-07-12 11:01:40,498 - INFO - Inserted message 34 from CheMed123 into DB.
+2025-07-12 11:01:40,566 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:40,776 - INFO - Downloaded image 34 from CheMed123
+2025-07-12 11:01:40,845 - INFO - Inserted message 33 from CheMed123 into DB.
+2025-07-12 11:01:40,903 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:41,249 - INFO - Downloaded image 33 from CheMed123
+2025-07-12 11:01:41,298 - INFO - Inserted message 32 from CheMed123 into DB.
+2025-07-12 11:01:41,370 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:41,621 - INFO - Downloaded image 32 from CheMed123
+2025-07-12 11:01:41,682 - INFO - Inserted message 31 from CheMed123 into DB.
+2025-07-12 11:01:41,736 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:42,141 - INFO - Downloaded image 31 from CheMed123
+2025-07-12 11:01:42,212 - INFO - Inserted message 30 from CheMed123 into DB.
+2025-07-12 11:01:42,293 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:42,541 - INFO - Downloaded image 30 from CheMed123
+2025-07-12 11:01:42,610 - INFO - Inserted message 29 from CheMed123 into DB.
+2025-07-12 11:01:42,653 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:43,096 - INFO - Downloaded image 29 from CheMed123
+2025-07-12 11:01:43,154 - INFO - Inserted message 27 from CheMed123 into DB.
+2025-07-12 11:01:43,237 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:43,431 - INFO - Downloaded image 27 from CheMed123
+2025-07-12 11:01:43,505 - INFO - Inserted message 26 from CheMed123 into DB.
+2025-07-12 11:01:43,567 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:44,040 - INFO - Downloaded image 26 from CheMed123
+2025-07-12 11:01:44,095 - INFO - Inserted message 25 from CheMed123 into DB.
+2025-07-12 11:01:44,177 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:44,473 - INFO - Downloaded image 25 from CheMed123
+2025-07-12 11:01:44,545 - INFO - Inserted message 23 from CheMed123 into DB.
+2025-07-12 11:01:44,615 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:44,880 - INFO - Downloaded image 23 from CheMed123
+2025-07-12 11:01:44,960 - INFO - Inserted message 22 from CheMed123 into DB.
+2025-07-12 11:01:45,029 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:45,276 - INFO - Downloaded image 22 from CheMed123
+2025-07-12 11:01:45,344 - INFO - Inserted message 21 from CheMed123 into DB.
+2025-07-12 11:01:45,415 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:45,615 - INFO - Downloaded image 21 from CheMed123
+2025-07-12 11:01:45,684 - INFO - Inserted message 20 from CheMed123 into DB.
+2025-07-12 11:01:45,743 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:46,131 - INFO - Downloaded image 20 from CheMed123
+2025-07-12 11:01:46,195 - INFO - Inserted message 19 from CheMed123 into DB.
+2025-07-12 11:01:46,259 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:46,727 - INFO - Downloaded image 19 from CheMed123
+2025-07-12 11:01:46,798 - INFO - Inserted message 18 from CheMed123 into DB.
+2025-07-12 11:01:46,862 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:47,134 - INFO - Downloaded image 18 from CheMed123
+2025-07-12 11:01:47,210 - INFO - Inserted message 17 from CheMed123 into DB.
+2025-07-12 11:01:47,291 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:47,536 - INFO - Downloaded image 17 from CheMed123
+2025-07-12 11:01:47,611 - INFO - Inserted message 15 from CheMed123 into DB.
+2025-07-12 11:01:47,692 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:47,883 - INFO - Downloaded image 15 from CheMed123
+2025-07-12 11:01:47,929 - INFO - Inserted message 14 from CheMed123 into DB.
+2025-07-12 11:01:47,989 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:48,315 - INFO - Downloaded image 14 from CheMed123
+2025-07-12 11:01:48,368 - INFO - Inserted message 13 from CheMed123 into DB.
+2025-07-12 11:01:48,422 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:48,872 - INFO - Downloaded image 13 from CheMed123
+2025-07-12 11:01:48,990 - INFO - Inserted message 11 from CheMed123 into DB.
+2025-07-12 11:01:49,060 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:49,277 - INFO - Downloaded image 11 from CheMed123
+2025-07-12 11:01:49,318 - INFO - Inserted message 10 from CheMed123 into DB.
+2025-07-12 11:01:49,369 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:49,711 - INFO - Downloaded image 10 from CheMed123
+2025-07-12 11:01:49,776 - INFO - Inserted message 9 from CheMed123 into DB.
+2025-07-12 11:01:49,852 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:50,022 - INFO - Downloaded image 9 from CheMed123
+2025-07-12 11:01:50,092 - INFO - Inserted message 4 from CheMed123 into DB.
+2025-07-12 11:01:50,154 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:50,297 - INFO - Downloaded image 4 from CheMed123
+2025-07-12 11:01:50,346 - INFO - Inserted message 3 from CheMed123 into DB.
+2025-07-12 11:01:50,407 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:50,557 - INFO - Downloaded image 3 from CheMed123
+2025-07-12 11:01:50,597 - INFO - Inserted message 2 from CheMed123 into DB.
+2025-07-12 11:01:50,655 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:50,806 - INFO - Downloaded image 2 from CheMed123
+2025-07-12 11:01:50,808 - INFO - Scraping channel: tikvahpharma
+2025-07-12 11:01:52,051 - INFO - Inserted message 172350 from tikvahpharma into DB.
+2025-07-12 11:01:52,103 - INFO - Inserted message 172345 from tikvahpharma into DB.
+2025-07-12 11:01:52,135 - INFO - Inserted message 172342 from tikvahpharma into DB.
+2025-07-12 11:01:52,170 - INFO - Inserted message 172341 from tikvahpharma into DB.
+2025-07-12 11:01:52,210 - INFO - Inserted message 172340 from tikvahpharma into DB.
+2025-07-12 11:01:52,245 - INFO - Inserted message 172339 from tikvahpharma into DB.
+2025-07-12 11:01:52,276 - INFO - Inserted message 172336 from tikvahpharma into DB.
+2025-07-12 11:01:52,317 - INFO - Inserted message 172332 from tikvahpharma into DB.
+2025-07-12 11:01:52,354 - INFO - Inserted message 172331 from tikvahpharma into DB.
+2025-07-12 11:01:52,385 - INFO - Inserted message 172330 from tikvahpharma into DB.
+2025-07-12 11:01:52,415 - INFO - Inserted message 172329 from tikvahpharma into DB.
+2025-07-12 11:01:52,449 - INFO - Inserted message 172328 from tikvahpharma into DB.
+2025-07-12 11:01:52,486 - INFO - Inserted message 172325 from tikvahpharma into DB.
+2025-07-12 11:01:52,530 - INFO - Inserted message 172323 from tikvahpharma into DB.
+2025-07-12 11:01:52,568 - INFO - Inserted message 172317 from tikvahpharma into DB.
+2025-07-12 11:01:52,594 - INFO - Inserted message 172316 from tikvahpharma into DB.
+2025-07-12 11:01:52,621 - INFO - Inserted message 172313 from tikvahpharma into DB.
+2025-07-12 11:01:52,648 - INFO - Inserted message 172310 from tikvahpharma into DB.
+2025-07-12 11:01:52,686 - INFO - Inserted message 172307 from tikvahpharma into DB.
+2025-07-12 11:01:52,712 - INFO - Inserted message 172276 from tikvahpharma into DB.
+2025-07-12 11:01:52,735 - INFO - Inserted message 172274 from tikvahpharma into DB.
+2025-07-12 11:01:52,760 - INFO - Inserted message 172273 from tikvahpharma into DB.
+2025-07-12 11:01:52,787 - INFO - Inserted message 172272 from tikvahpharma into DB.
+2025-07-12 11:01:52,812 - INFO - Inserted message 172264 from tikvahpharma into DB.
+2025-07-12 11:01:52,835 - INFO - Inserted message 172263 from tikvahpharma into DB.
+2025-07-12 11:01:52,861 - INFO - Inserted message 172259 from tikvahpharma into DB.
+2025-07-12 11:01:52,884 - INFO - Inserted message 172252 from tikvahpharma into DB.
+2025-07-12 11:01:52,920 - INFO - Inserted message 172230 from tikvahpharma into DB.
+2025-07-12 11:01:52,945 - INFO - Inserted message 172229 from tikvahpharma into DB.
+2025-07-12 11:01:52,974 - INFO - Inserted message 172214 from tikvahpharma into DB.
+2025-07-12 11:01:53,001 - INFO - Inserted message 172209 from tikvahpharma into DB.
+2025-07-12 11:01:53,031 - INFO - Inserted message 172196 from tikvahpharma into DB.
+2025-07-12 11:01:53,060 - INFO - Inserted message 172188 from tikvahpharma into DB.
+2025-07-12 11:01:53,087 - INFO - Inserted message 172187 from tikvahpharma into DB.
+2025-07-12 11:01:53,127 - INFO - Inserted message 172186 from tikvahpharma into DB.
+2025-07-12 11:01:53,158 - INFO - Inserted message 172185 from tikvahpharma into DB.
+2025-07-12 11:01:53,196 - INFO - Inserted message 172180 from tikvahpharma into DB.
+2025-07-12 11:01:53,218 - INFO - Inserted message 172179 from tikvahpharma into DB.
+2025-07-12 11:01:53,251 - INFO - Inserted message 172178 from tikvahpharma into DB.
+2025-07-12 11:01:53,279 - INFO - Inserted message 172177 from tikvahpharma into DB.
+2025-07-12 11:01:53,308 - INFO - Inserted message 172174 from tikvahpharma into DB.
+2025-07-12 11:01:53,337 - INFO - Inserted message 172173 from tikvahpharma into DB.
+2025-07-12 11:01:53,363 - INFO - Inserted message 172172 from tikvahpharma into DB.
+2025-07-12 11:01:53,388 - INFO - Inserted message 172170 from tikvahpharma into DB.
+2025-07-12 11:01:53,420 - INFO - Inserted message 172166 from tikvahpharma into DB.
+2025-07-12 11:01:53,445 - INFO - Inserted message 172164 from tikvahpharma into DB.
+2025-07-12 11:01:53,471 - INFO - Inserted message 172144 from tikvahpharma into DB.
+2025-07-12 11:01:53,499 - INFO - Inserted message 172142 from tikvahpharma into DB.
+2025-07-12 11:01:53,532 - INFO - Inserted message 172141 from tikvahpharma into DB.
+2025-07-12 11:01:53,560 - INFO - Inserted message 172140 from tikvahpharma into DB.
+2025-07-12 11:01:53,584 - INFO - Inserted message 172136 from tikvahpharma into DB.
+2025-07-12 11:01:53,614 - INFO - Inserted message 172135 from tikvahpharma into DB.
+2025-07-12 11:01:53,646 - INFO - Inserted message 172134 from tikvahpharma into DB.
+2025-07-12 11:01:53,679 - INFO - Inserted message 172133 from tikvahpharma into DB.
+2025-07-12 11:01:53,709 - INFO - Inserted message 172132 from tikvahpharma into DB.
+2025-07-12 11:01:53,739 - INFO - Inserted message 172131 from tikvahpharma into DB.
+2025-07-12 11:01:53,765 - INFO - Inserted message 172130 from tikvahpharma into DB.
+2025-07-12 11:01:53,797 - INFO - Inserted message 172129 from tikvahpharma into DB.
+2025-07-12 11:01:53,829 - INFO - Inserted message 172127 from tikvahpharma into DB.
+2025-07-12 11:01:53,863 - INFO - Inserted message 172126 from tikvahpharma into DB.
+2025-07-12 11:01:53,899 - INFO - Inserted message 172125 from tikvahpharma into DB.
+2025-07-12 11:01:53,934 - INFO - Inserted message 172123 from tikvahpharma into DB.
+2025-07-12 11:01:53,964 - INFO - Inserted message 172122 from tikvahpharma into DB.
+2025-07-12 11:01:53,997 - INFO - Inserted message 172121 from tikvahpharma into DB.
+2025-07-12 11:01:54,028 - INFO - Inserted message 172120 from tikvahpharma into DB.
+2025-07-12 11:01:54,065 - INFO - Inserted message 172119 from tikvahpharma into DB.
+2025-07-12 11:01:54,100 - INFO - Inserted message 172118 from tikvahpharma into DB.
+2025-07-12 11:01:54,134 - INFO - Inserted message 172117 from tikvahpharma into DB.
+2025-07-12 11:01:54,167 - INFO - Inserted message 172116 from tikvahpharma into DB.
+2025-07-12 11:01:54,199 - INFO - Inserted message 172115 from tikvahpharma into DB.
+2025-07-12 11:01:54,227 - INFO - Inserted message 172114 from tikvahpharma into DB.
+2025-07-12 11:01:54,260 - INFO - Inserted message 172113 from tikvahpharma into DB.
+2025-07-12 11:01:54,294 - INFO - Inserted message 172112 from tikvahpharma into DB.
+2025-07-12 11:01:54,331 - INFO - Inserted message 172111 from tikvahpharma into DB.
+2025-07-12 11:01:54,358 - INFO - Inserted message 172110 from tikvahpharma into DB.
+2025-07-12 11:01:54,389 - INFO - Inserted message 172109 from tikvahpharma into DB.
+2025-07-12 11:01:54,423 - INFO - Inserted message 172108 from tikvahpharma into DB.
+2025-07-12 11:01:54,457 - INFO - Inserted message 172107 from tikvahpharma into DB.
+2025-07-12 11:01:54,483 - INFO - Inserted message 172106 from tikvahpharma into DB.
+2025-07-12 11:01:54,511 - INFO - Inserted message 172105 from tikvahpharma into DB.
+2025-07-12 11:01:54,538 - INFO - Inserted message 172104 from tikvahpharma into DB.
+2025-07-12 11:01:54,573 - INFO - Inserted message 172103 from tikvahpharma into DB.
+2025-07-12 11:01:54,603 - INFO - Inserted message 172102 from tikvahpharma into DB.
+2025-07-12 11:01:54,630 - INFO - Inserted message 172101 from tikvahpharma into DB.
+2025-07-12 11:01:54,655 - INFO - Inserted message 172100 from tikvahpharma into DB.
+2025-07-12 11:01:54,681 - INFO - Inserted message 172099 from tikvahpharma into DB.
+2025-07-12 11:01:54,709 - INFO - Inserted message 172098 from tikvahpharma into DB.
+2025-07-12 11:01:54,735 - INFO - Inserted message 172097 from tikvahpharma into DB.
+2025-07-12 11:01:54,764 - INFO - Inserted message 172095 from tikvahpharma into DB.
+2025-07-12 11:01:54,796 - INFO - Inserted message 172093 from tikvahpharma into DB.
+2025-07-12 11:01:54,826 - INFO - Inserted message 172092 from tikvahpharma into DB.
+2025-07-12 11:01:54,853 - INFO - Inserted message 172091 from tikvahpharma into DB.
+2025-07-12 11:01:54,882 - INFO - Inserted message 172090 from tikvahpharma into DB.
+2025-07-12 11:01:54,907 - INFO - Inserted message 172089 from tikvahpharma into DB.
+2025-07-12 11:01:54,933 - INFO - Inserted message 172088 from tikvahpharma into DB.
+2025-07-12 11:01:54,965 - INFO - Inserted message 172087 from tikvahpharma into DB.
+2025-07-12 11:01:54,994 - INFO - Inserted message 172086 from tikvahpharma into DB.
+2025-07-12 11:01:55,031 - INFO - Inserted message 172085 from tikvahpharma into DB.
+2025-07-12 11:01:55,060 - INFO - Inserted message 172084 from tikvahpharma into DB.
+2025-07-12 11:01:55,084 - INFO - Inserted message 172083 from tikvahpharma into DB.
+2025-07-12 11:01:55,085 - INFO - Scraping channel: Thequorachannel
+2025-07-12 11:01:55,695 - INFO - Inserted message 13929 from Thequorachannel into DB.
+2025-07-12 11:01:55,757 - INFO - Inserted message 13928 from Thequorachannel into DB.
+2025-07-12 11:01:55,811 - INFO - Inserted message 13927 from Thequorachannel into DB.
+2025-07-12 11:01:55,861 - INFO - Inserted message 13926 from Thequorachannel into DB.
+2025-07-12 11:01:55,888 - INFO - Inserted message 13925 from Thequorachannel into DB.
+2025-07-12 11:01:55,930 - INFO - Inserted message 13924 from Thequorachannel into DB.
+2025-07-12 11:01:55,971 - INFO - Inserted message 13923 from Thequorachannel into DB.
+2025-07-12 11:01:56,010 - INFO - Inserted message 13922 from Thequorachannel into DB.
+2025-07-12 11:01:56,047 - INFO - Inserted message 13921 from Thequorachannel into DB.
+2025-07-12 11:01:56,088 - INFO - Inserted message 13920 from Thequorachannel into DB.
+2025-07-12 11:01:56,115 - INFO - Inserted message 13919 from Thequorachannel into DB.
+2025-07-12 11:01:56,143 - INFO - Inserted message 13917 from Thequorachannel into DB.
+2025-07-12 11:01:56,168 - INFO - Inserted message 13916 from Thequorachannel into DB.
+2025-07-12 11:01:56,197 - INFO - Inserted message 13915 from Thequorachannel into DB.
+2025-07-12 11:01:56,224 - INFO - Inserted message 13914 from Thequorachannel into DB.
+2025-07-12 11:01:56,249 - INFO - Inserted message 13913 from Thequorachannel into DB.
+2025-07-12 11:01:56,279 - INFO - Inserted message 13912 from Thequorachannel into DB.
+2025-07-12 11:01:56,307 - INFO - Inserted message 13911 from Thequorachannel into DB.
+2025-07-12 11:01:56,336 - INFO - Inserted message 13910 from Thequorachannel into DB.
+2025-07-12 11:01:56,363 - INFO - Inserted message 13909 from Thequorachannel into DB.
+2025-07-12 11:01:56,407 - INFO - Inserted message 13908 from Thequorachannel into DB.
+2025-07-12 11:01:56,436 - INFO - Inserted message 13907 from Thequorachannel into DB.
+2025-07-12 11:01:56,467 - INFO - Inserted message 13906 from Thequorachannel into DB.
+2025-07-12 11:01:56,505 - INFO - Inserted message 13905 from Thequorachannel into DB.
+2025-07-12 11:01:56,538 - INFO - Inserted message 13904 from Thequorachannel into DB.
+2025-07-12 11:01:56,571 - INFO - Inserted message 13903 from Thequorachannel into DB.
+2025-07-12 11:01:56,603 - INFO - Inserted message 13902 from Thequorachannel into DB.
+2025-07-12 11:01:56,633 - INFO - Inserted message 13901 from Thequorachannel into DB.
+2025-07-12 11:01:56,664 - INFO - Inserted message 13900 from Thequorachannel into DB.
+2025-07-12 11:01:56,698 - INFO - Inserted message 13899 from Thequorachannel into DB.
+2025-07-12 11:01:56,730 - INFO - Inserted message 13898 from Thequorachannel into DB.
+2025-07-12 11:01:56,759 - INFO - Inserted message 13897 from Thequorachannel into DB.
+2025-07-12 11:01:56,795 - INFO - Inserted message 13896 from Thequorachannel into DB.
+2025-07-12 11:01:56,828 - INFO - Inserted message 13895 from Thequorachannel into DB.
+2025-07-12 11:01:56,862 - INFO - Inserted message 13894 from Thequorachannel into DB.
+2025-07-12 11:01:56,898 - INFO - Inserted message 13893 from Thequorachannel into DB.
+2025-07-12 11:01:56,936 - INFO - Inserted message 13892 from Thequorachannel into DB.
+2025-07-12 11:01:56,974 - INFO - Inserted message 13891 from Thequorachannel into DB.
+2025-07-12 11:01:57,010 - INFO - Inserted message 13890 from Thequorachannel into DB.
+2025-07-12 11:01:57,045 - INFO - Inserted message 13889 from Thequorachannel into DB.
+2025-07-12 11:01:57,080 - INFO - Inserted message 13888 from Thequorachannel into DB.
+2025-07-12 11:01:57,115 - INFO - Inserted message 13887 from Thequorachannel into DB.
+2025-07-12 11:01:57,151 - INFO - Inserted message 13886 from Thequorachannel into DB.
+2025-07-12 11:01:57,187 - INFO - Inserted message 13885 from Thequorachannel into DB.
+2025-07-12 11:01:57,226 - INFO - Inserted message 13884 from Thequorachannel into DB.
+2025-07-12 11:01:57,263 - INFO - Inserted message 13883 from Thequorachannel into DB.
+2025-07-12 11:01:57,298 - INFO - Inserted message 13882 from Thequorachannel into DB.
+2025-07-12 11:01:57,329 - INFO - Inserted message 13881 from Thequorachannel into DB.
+2025-07-12 11:01:57,360 - INFO - Inserted message 13880 from Thequorachannel into DB.
+2025-07-12 11:01:57,382 - INFO - Inserted message 13878 from Thequorachannel into DB.
+2025-07-12 11:01:57,408 - INFO - Inserted message 13877 from Thequorachannel into DB.
+2025-07-12 11:01:57,433 - INFO - Inserted message 13876 from Thequorachannel into DB.
+2025-07-12 11:01:57,463 - INFO - Inserted message 13875 from Thequorachannel into DB.
+2025-07-12 11:01:57,493 - INFO - Inserted message 13874 from Thequorachannel into DB.
+2025-07-12 11:01:57,530 - INFO - Inserted message 13873 from Thequorachannel into DB.
+2025-07-12 11:01:57,565 - INFO - Inserted message 13872 from Thequorachannel into DB.
+2025-07-12 11:01:57,599 - INFO - Inserted message 13871 from Thequorachannel into DB.
+2025-07-12 11:01:57,648 - INFO - Inserted message 13870 from Thequorachannel into DB.
+2025-07-12 11:01:57,712 - INFO - Inserted message 13869 from Thequorachannel into DB.
+2025-07-12 11:01:57,753 - INFO - Inserted message 13868 from Thequorachannel into DB.
+2025-07-12 11:01:57,798 - INFO - Inserted message 13867 from Thequorachannel into DB.
+2025-07-12 11:01:57,830 - INFO - Inserted message 13866 from Thequorachannel into DB.
+2025-07-12 11:01:57,863 - INFO - Inserted message 13865 from Thequorachannel into DB.
+2025-07-12 11:01:57,899 - INFO - Inserted message 13864 from Thequorachannel into DB.
+2025-07-12 11:01:57,940 - INFO - Inserted message 13863 from Thequorachannel into DB.
+2025-07-12 11:01:57,977 - INFO - Inserted message 13862 from Thequorachannel into DB.
+2025-07-12 11:01:58,008 - INFO - Inserted message 13861 from Thequorachannel into DB.
+2025-07-12 11:01:58,041 - INFO - Inserted message 13860 from Thequorachannel into DB.
+2025-07-12 11:01:58,074 - INFO - Inserted message 13859 from Thequorachannel into DB.
+2025-07-12 11:01:58,107 - INFO - Inserted message 13858 from Thequorachannel into DB.
+2025-07-12 11:01:58,136 - INFO - Inserted message 13857 from Thequorachannel into DB.
+2025-07-12 11:01:58,167 - INFO - Inserted message 13856 from Thequorachannel into DB.
+2025-07-12 11:01:58,193 - INFO - Inserted message 13855 from Thequorachannel into DB.
+2025-07-12 11:01:58,219 - INFO - Inserted message 13854 from Thequorachannel into DB.
+2025-07-12 11:01:58,246 - INFO - Inserted message 13853 from Thequorachannel into DB.
+2025-07-12 11:01:58,272 - INFO - Inserted message 13852 from Thequorachannel into DB.
+2025-07-12 11:01:58,297 - INFO - Inserted message 13851 from Thequorachannel into DB.
+2025-07-12 11:01:58,323 - INFO - Inserted message 13850 from Thequorachannel into DB.
+2025-07-12 11:01:58,348 - INFO - Inserted message 13849 from Thequorachannel into DB.
+2025-07-12 11:01:58,374 - INFO - Inserted message 13847 from Thequorachannel into DB.
+2025-07-12 11:01:58,396 - INFO - Inserted message 13846 from Thequorachannel into DB.
+2025-07-12 11:01:58,424 - INFO - Inserted message 13845 from Thequorachannel into DB.
+2025-07-12 11:01:58,445 - INFO - Inserted message 13844 from Thequorachannel into DB.
+2025-07-12 11:01:58,470 - INFO - Inserted message 13843 from Thequorachannel into DB.
+2025-07-12 11:01:58,494 - INFO - Inserted message 13842 from Thequorachannel into DB.
+2025-07-12 11:01:58,517 - INFO - Inserted message 13841 from Thequorachannel into DB.
+2025-07-12 11:01:58,540 - INFO - Inserted message 13840 from Thequorachannel into DB.
+2025-07-12 11:01:58,563 - INFO - Inserted message 13839 from Thequorachannel into DB.
+2025-07-12 11:01:58,594 - INFO - Inserted message 13838 from Thequorachannel into DB.
+2025-07-12 11:01:58,619 - INFO - Inserted message 13836 from Thequorachannel into DB.
+2025-07-12 11:01:58,643 - INFO - Inserted message 13835 from Thequorachannel into DB.
+2025-07-12 11:01:58,670 - INFO - Inserted message 13833 from Thequorachannel into DB.
+2025-07-12 11:01:58,696 - INFO - Inserted message 13832 from Thequorachannel into DB.
+2025-07-12 11:01:58,727 - INFO - Inserted message 13831 from Thequorachannel into DB.
+2025-07-12 11:01:58,756 - INFO - Inserted message 13830 from Thequorachannel into DB.
+2025-07-12 11:01:58,786 - INFO - Inserted message 13829 from Thequorachannel into DB.
+2025-07-12 11:01:58,813 - INFO - Inserted message 13828 from Thequorachannel into DB.
+2025-07-12 11:01:58,845 - INFO - Inserted message 13827 from Thequorachannel into DB.
+2025-07-12 11:01:58,872 - INFO - Inserted message 13826 from Thequorachannel into DB.
+2025-07-12 11:01:58,899 - INFO - Inserted message 13825 from Thequorachannel into DB.
+2025-07-12 11:01:58,900 - INFO - Scraping channel: lobelia4cosmetics
+2025-07-12 11:01:59,371 - INFO - Inserted message 18532 from lobelia4cosmetics into DB.
+2025-07-12 11:01:59,457 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:01:59,638 - INFO - Downloaded image 18532 from lobelia4cosmetics
+2025-07-12 11:01:59,695 - INFO - Inserted message 18531 from lobelia4cosmetics into DB.
+2025-07-12 11:01:59,751 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:00,004 - INFO - Downloaded image 18531 from lobelia4cosmetics
+2025-07-12 11:02:00,070 - INFO - Inserted message 18530 from lobelia4cosmetics into DB.
+2025-07-12 11:02:00,114 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:00,299 - INFO - Downloaded image 18530 from lobelia4cosmetics
+2025-07-12 11:02:00,359 - INFO - Inserted message 18529 from lobelia4cosmetics into DB.
+2025-07-12 11:02:00,433 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:00,596 - INFO - Downloaded image 18529 from lobelia4cosmetics
+2025-07-12 11:02:00,646 - INFO - Inserted message 18528 from lobelia4cosmetics into DB.
+2025-07-12 11:02:00,708 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:00,856 - INFO - Downloaded image 18528 from lobelia4cosmetics
+2025-07-12 11:02:00,920 - INFO - Inserted message 18527 from lobelia4cosmetics into DB.
+2025-07-12 11:02:00,982 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:01,264 - INFO - Downloaded image 18527 from lobelia4cosmetics
+2025-07-12 11:02:01,331 - INFO - Inserted message 18526 from lobelia4cosmetics into DB.
+2025-07-12 11:02:01,402 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:01,599 - INFO - Downloaded image 18526 from lobelia4cosmetics
+2025-07-12 11:02:01,647 - INFO - Inserted message 18525 from lobelia4cosmetics into DB.
+2025-07-12 11:02:01,704 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:01,980 - INFO - Downloaded image 18525 from lobelia4cosmetics
+2025-07-12 11:02:02,037 - INFO - Inserted message 18524 from lobelia4cosmetics into DB.
+2025-07-12 11:02:02,109 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:02,488 - INFO - Downloaded image 18524 from lobelia4cosmetics
+2025-07-12 11:02:02,563 - INFO - Inserted message 18523 from lobelia4cosmetics into DB.
+2025-07-12 11:02:02,641 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:02,889 - INFO - Downloaded image 18523 from lobelia4cosmetics
+2025-07-12 11:02:02,952 - INFO - Inserted message 18522 from lobelia4cosmetics into DB.
+2025-07-12 11:02:03,011 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:03,177 - INFO - Downloaded image 18522 from lobelia4cosmetics
+2025-07-12 11:02:03,262 - INFO - Inserted message 18521 from lobelia4cosmetics into DB.
+2025-07-12 11:02:03,327 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:03,499 - INFO - Downloaded image 18521 from lobelia4cosmetics
+2025-07-12 11:02:03,564 - INFO - Inserted message 18520 from lobelia4cosmetics into DB.
+2025-07-12 11:02:03,637 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:03,983 - INFO - Downloaded image 18520 from lobelia4cosmetics
+2025-07-12 11:02:04,054 - INFO - Inserted message 18519 from lobelia4cosmetics into DB.
+2025-07-12 11:02:04,128 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:04,529 - INFO - Downloaded image 18519 from lobelia4cosmetics
+2025-07-12 11:02:04,592 - INFO - Inserted message 18518 from lobelia4cosmetics into DB.
+2025-07-12 11:02:04,652 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:04,839 - INFO - Downloaded image 18518 from lobelia4cosmetics
+2025-07-12 11:02:04,888 - INFO - Inserted message 18517 from lobelia4cosmetics into DB.
+2025-07-12 11:02:04,965 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:05,114 - INFO - Downloaded image 18517 from lobelia4cosmetics
+2025-07-12 11:02:05,193 - INFO - Inserted message 18516 from lobelia4cosmetics into DB.
+2025-07-12 11:02:05,269 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:05,416 - INFO - Downloaded image 18516 from lobelia4cosmetics
+2025-07-12 11:02:05,500 - INFO - Inserted message 18515 from lobelia4cosmetics into DB.
+2025-07-12 11:02:05,574 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:05,770 - INFO - Downloaded image 18515 from lobelia4cosmetics
+2025-07-12 11:02:05,848 - INFO - Inserted message 18514 from lobelia4cosmetics into DB.
+2025-07-12 11:02:05,929 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:06,069 - INFO - Downloaded image 18514 from lobelia4cosmetics
+2025-07-12 11:02:06,138 - INFO - Inserted message 18513 from lobelia4cosmetics into DB.
+2025-07-12 11:02:06,219 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:06,453 - INFO - Downloaded image 18513 from lobelia4cosmetics
+2025-07-12 11:02:06,533 - INFO - Inserted message 18512 from lobelia4cosmetics into DB.
+2025-07-12 11:02:06,599 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:06,769 - INFO - Downloaded image 18512 from lobelia4cosmetics
+2025-07-12 11:02:06,851 - INFO - Inserted message 18511 from lobelia4cosmetics into DB.
+2025-07-12 11:02:06,923 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:07,063 - INFO - Downloaded image 18511 from lobelia4cosmetics
+2025-07-12 11:02:07,108 - INFO - Inserted message 18510 from lobelia4cosmetics into DB.
+2025-07-12 11:02:07,163 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:07,341 - INFO - Downloaded image 18510 from lobelia4cosmetics
+2025-07-12 11:02:07,420 - INFO - Inserted message 18509 from lobelia4cosmetics into DB.
+2025-07-12 11:02:07,484 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:07,642 - INFO - Downloaded image 18509 from lobelia4cosmetics
+2025-07-12 11:02:07,713 - INFO - Inserted message 18508 from lobelia4cosmetics into DB.
+2025-07-12 11:02:07,773 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:08,021 - INFO - Downloaded image 18508 from lobelia4cosmetics
+2025-07-12 11:02:08,096 - INFO - Inserted message 18507 from lobelia4cosmetics into DB.
+2025-07-12 11:02:08,153 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:08,281 - INFO - Downloaded image 18507 from lobelia4cosmetics
+2025-07-12 11:02:08,320 - INFO - Inserted message 18506 from lobelia4cosmetics into DB.
+2025-07-12 11:02:08,372 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:08,562 - INFO - Downloaded image 18506 from lobelia4cosmetics
+2025-07-12 11:02:08,636 - INFO - Inserted message 18505 from lobelia4cosmetics into DB.
+2025-07-12 11:02:08,695 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:08,885 - INFO - Downloaded image 18505 from lobelia4cosmetics
+2025-07-12 11:02:08,959 - INFO - Inserted message 18504 from lobelia4cosmetics into DB.
+2025-07-12 11:02:09,027 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:09,244 - INFO - Downloaded image 18504 from lobelia4cosmetics
+2025-07-12 11:02:09,321 - INFO - Inserted message 18503 from lobelia4cosmetics into DB.
+2025-07-12 11:02:09,390 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:09,589 - INFO - Downloaded image 18503 from lobelia4cosmetics
+2025-07-12 11:02:09,657 - INFO - Inserted message 18502 from lobelia4cosmetics into DB.
+2025-07-12 11:02:09,731 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:09,935 - INFO - Downloaded image 18502 from lobelia4cosmetics
+2025-07-12 11:02:10,001 - INFO - Inserted message 18501 from lobelia4cosmetics into DB.
+2025-07-12 11:02:10,082 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:10,285 - INFO - Downloaded image 18501 from lobelia4cosmetics
+2025-07-12 11:02:10,365 - INFO - Inserted message 18500 from lobelia4cosmetics into DB.
+2025-07-12 11:02:10,441 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:10,754 - INFO - Downloaded image 18500 from lobelia4cosmetics
+2025-07-12 11:02:10,817 - INFO - Inserted message 18499 from lobelia4cosmetics into DB.
+2025-07-12 11:02:10,871 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:11,086 - INFO - Downloaded image 18499 from lobelia4cosmetics
+2025-07-12 11:02:11,128 - INFO - Inserted message 18498 from lobelia4cosmetics into DB.
+2025-07-12 11:02:11,171 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:11,410 - INFO - Downloaded image 18498 from lobelia4cosmetics
+2025-07-12 11:02:11,444 - INFO - Inserted message 18497 from lobelia4cosmetics into DB.
+2025-07-12 11:02:11,513 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:11,668 - INFO - Downloaded image 18497 from lobelia4cosmetics
+2025-07-12 11:02:11,747 - INFO - Inserted message 18496 from lobelia4cosmetics into DB.
+2025-07-12 11:02:11,811 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:12,113 - INFO - Downloaded image 18496 from lobelia4cosmetics
+2025-07-12 11:02:12,196 - INFO - Inserted message 18495 from lobelia4cosmetics into DB.
+2025-07-12 11:02:12,280 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:12,451 - INFO - Downloaded image 18495 from lobelia4cosmetics
+2025-07-12 11:02:12,540 - INFO - Inserted message 18494 from lobelia4cosmetics into DB.
+2025-07-12 11:02:12,618 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:12,811 - INFO - Downloaded image 18494 from lobelia4cosmetics
+2025-07-12 11:02:12,898 - INFO - Inserted message 18493 from lobelia4cosmetics into DB.
+2025-07-12 11:02:12,978 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:13,144 - INFO - Downloaded image 18493 from lobelia4cosmetics
+2025-07-12 11:02:13,242 - INFO - Inserted message 18492 from lobelia4cosmetics into DB.
+2025-07-12 11:02:13,328 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:13,480 - INFO - Downloaded image 18492 from lobelia4cosmetics
+2025-07-12 11:02:13,556 - INFO - Inserted message 18491 from lobelia4cosmetics into DB.
+2025-07-12 11:02:13,618 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:14,036 - INFO - Downloaded image 18491 from lobelia4cosmetics
+2025-07-12 11:02:14,113 - INFO - Inserted message 18490 from lobelia4cosmetics into DB.
+2025-07-12 11:02:14,195 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:14,654 - INFO - Downloaded image 18490 from lobelia4cosmetics
+2025-07-12 11:02:14,743 - INFO - Inserted message 18489 from lobelia4cosmetics into DB.
+2025-07-12 11:02:14,822 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:15,055 - INFO - Downloaded image 18489 from lobelia4cosmetics
+2025-07-12 11:02:15,128 - INFO - Inserted message 18488 from lobelia4cosmetics into DB.
+2025-07-12 11:02:15,194 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:15,589 - INFO - Downloaded image 18488 from lobelia4cosmetics
+2025-07-12 11:02:15,681 - INFO - Inserted message 18487 from lobelia4cosmetics into DB.
+2025-07-12 11:02:15,755 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:15,979 - INFO - Downloaded image 18487 from lobelia4cosmetics
+2025-07-12 11:02:16,031 - INFO - Inserted message 18486 from lobelia4cosmetics into DB.
+2025-07-12 11:02:16,099 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:16,368 - INFO - Downloaded image 18486 from lobelia4cosmetics
+2025-07-12 11:02:16,439 - INFO - Inserted message 18485 from lobelia4cosmetics into DB.
+2025-07-12 11:02:16,499 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:16,687 - INFO - Downloaded image 18485 from lobelia4cosmetics
+2025-07-12 11:02:16,742 - INFO - Inserted message 18484 from lobelia4cosmetics into DB.
+2025-07-12 11:02:16,799 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:17,004 - INFO - Downloaded image 18484 from lobelia4cosmetics
+2025-07-12 11:02:17,073 - INFO - Inserted message 18483 from lobelia4cosmetics into DB.
+2025-07-12 11:02:17,151 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:17,371 - INFO - Downloaded image 18483 from lobelia4cosmetics
+2025-07-12 11:02:17,449 - INFO - Inserted message 18482 from lobelia4cosmetics into DB.
+2025-07-12 11:02:17,510 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:17,652 - INFO - Downloaded image 18482 from lobelia4cosmetics
+2025-07-12 11:02:17,721 - INFO - Inserted message 18481 from lobelia4cosmetics into DB.
+2025-07-12 11:02:17,779 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:18,191 - INFO - Downloaded image 18481 from lobelia4cosmetics
+2025-07-12 11:02:18,234 - INFO - Inserted message 18480 from lobelia4cosmetics into DB.
+2025-07-12 11:02:18,287 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:18,664 - INFO - Downloaded image 18480 from lobelia4cosmetics
+2025-07-12 11:02:18,744 - INFO - Inserted message 18479 from lobelia4cosmetics into DB.
+2025-07-12 11:02:18,808 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:18,954 - INFO - Downloaded image 18479 from lobelia4cosmetics
+2025-07-12 11:02:19,028 - INFO - Inserted message 18478 from lobelia4cosmetics into DB.
+2025-07-12 11:02:19,105 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:19,394 - INFO - Downloaded image 18478 from lobelia4cosmetics
+2025-07-12 11:02:19,469 - INFO - Inserted message 18477 from lobelia4cosmetics into DB.
+2025-07-12 11:02:19,536 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:19,825 - INFO - Downloaded image 18477 from lobelia4cosmetics
+2025-07-12 11:02:19,868 - INFO - Inserted message 18476 from lobelia4cosmetics into DB.
+2025-07-12 11:02:19,918 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:20,378 - INFO - Downloaded image 18476 from lobelia4cosmetics
+2025-07-12 11:02:20,451 - INFO - Inserted message 18475 from lobelia4cosmetics into DB.
+2025-07-12 11:02:20,516 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:20,687 - INFO - Downloaded image 18475 from lobelia4cosmetics
+2025-07-12 11:02:20,762 - INFO - Inserted message 18474 from lobelia4cosmetics into DB.
+2025-07-12 11:02:20,825 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:21,005 - INFO - Downloaded image 18474 from lobelia4cosmetics
+2025-07-12 11:02:21,070 - INFO - Inserted message 18473 from lobelia4cosmetics into DB.
+2025-07-12 11:02:21,136 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:21,318 - INFO - Downloaded image 18473 from lobelia4cosmetics
+2025-07-12 11:02:21,406 - INFO - Inserted message 18472 from lobelia4cosmetics into DB.
+2025-07-12 11:02:21,483 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:21,650 - INFO - Downloaded image 18472 from lobelia4cosmetics
+2025-07-12 11:02:21,719 - INFO - Inserted message 18471 from lobelia4cosmetics into DB.
+2025-07-12 11:02:21,782 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:21,988 - INFO - Downloaded image 18471 from lobelia4cosmetics
+2025-07-12 11:02:22,038 - INFO - Inserted message 18470 from lobelia4cosmetics into DB.
+2025-07-12 11:02:22,109 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:22,264 - INFO - Downloaded image 18470 from lobelia4cosmetics
+2025-07-12 11:02:22,337 - INFO - Inserted message 18469 from lobelia4cosmetics into DB.
+2025-07-12 11:02:22,402 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:22,639 - INFO - Downloaded image 18469 from lobelia4cosmetics
+2025-07-12 11:02:22,694 - INFO - Inserted message 18468 from lobelia4cosmetics into DB.
+2025-07-12 11:02:22,755 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:22,968 - INFO - Downloaded image 18468 from lobelia4cosmetics
+2025-07-12 11:02:23,046 - INFO - Inserted message 18467 from lobelia4cosmetics into DB.
+2025-07-12 11:02:23,125 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:23,389 - INFO - Downloaded image 18467 from lobelia4cosmetics
+2025-07-12 11:02:23,471 - INFO - Inserted message 18466 from lobelia4cosmetics into DB.
+2025-07-12 11:02:23,541 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:23,672 - INFO - Downloaded image 18466 from lobelia4cosmetics
+2025-07-12 11:02:23,738 - INFO - Inserted message 18465 from lobelia4cosmetics into DB.
+2025-07-12 11:02:23,824 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:23,962 - INFO - Downloaded image 18465 from lobelia4cosmetics
+2025-07-12 11:02:24,034 - INFO - Inserted message 18464 from lobelia4cosmetics into DB.
+2025-07-12 11:02:24,099 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:24,295 - INFO - Downloaded image 18464 from lobelia4cosmetics
+2025-07-12 11:02:24,366 - INFO - Inserted message 18463 from lobelia4cosmetics into DB.
+2025-07-12 11:02:24,428 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:24,670 - INFO - Downloaded image 18463 from lobelia4cosmetics
+2025-07-12 11:02:24,735 - INFO - Inserted message 18462 from lobelia4cosmetics into DB.
+2025-07-12 11:02:24,785 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:25,008 - INFO - Downloaded image 18462 from lobelia4cosmetics
+2025-07-12 11:02:25,076 - INFO - Inserted message 18461 from lobelia4cosmetics into DB.
+2025-07-12 11:02:25,148 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:25,427 - INFO - Downloaded image 18461 from lobelia4cosmetics
+2025-07-12 11:02:25,506 - INFO - Inserted message 18460 from lobelia4cosmetics into DB.
+2025-07-12 11:02:25,567 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:25,759 - INFO - Downloaded image 18460 from lobelia4cosmetics
+2025-07-12 11:02:25,827 - INFO - Inserted message 18459 from lobelia4cosmetics into DB.
+2025-07-12 11:02:25,905 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:26,098 - INFO - Downloaded image 18459 from lobelia4cosmetics
+2025-07-12 11:02:26,139 - INFO - Inserted message 18458 from lobelia4cosmetics into DB.
+2025-07-12 11:02:26,198 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:26,391 - INFO - Downloaded image 18458 from lobelia4cosmetics
+2025-07-12 11:02:26,453 - INFO - Inserted message 18457 from lobelia4cosmetics into DB.
+2025-07-12 11:02:26,506 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:26,754 - INFO - Downloaded image 18457 from lobelia4cosmetics
+2025-07-12 11:02:26,837 - INFO - Inserted message 18456 from lobelia4cosmetics into DB.
+2025-07-12 11:02:26,919 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:27,167 - INFO - Downloaded image 18456 from lobelia4cosmetics
+2025-07-12 11:02:27,237 - INFO - Inserted message 18455 from lobelia4cosmetics into DB.
+2025-07-12 11:02:27,311 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:27,597 - INFO - Downloaded image 18455 from lobelia4cosmetics
+2025-07-12 11:02:27,673 - INFO - Inserted message 18454 from lobelia4cosmetics into DB.
+2025-07-12 11:02:27,734 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:27,938 - INFO - Downloaded image 18454 from lobelia4cosmetics
+2025-07-12 11:02:28,004 - INFO - Inserted message 18453 from lobelia4cosmetics into DB.
+2025-07-12 11:02:28,055 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:28,203 - INFO - Downloaded image 18453 from lobelia4cosmetics
+2025-07-12 11:02:28,252 - INFO - Inserted message 18452 from lobelia4cosmetics into DB.
+2025-07-12 11:02:28,285 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:28,423 - INFO - Downloaded image 18452 from lobelia4cosmetics
+2025-07-12 11:02:28,479 - INFO - Inserted message 18451 from lobelia4cosmetics into DB.
+2025-07-12 11:02:28,541 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:28,788 - INFO - Downloaded image 18451 from lobelia4cosmetics
+2025-07-12 11:02:28,846 - INFO - Inserted message 18450 from lobelia4cosmetics into DB.
+2025-07-12 11:02:28,921 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:29,070 - INFO - Downloaded image 18450 from lobelia4cosmetics
+2025-07-12 11:02:29,142 - INFO - Inserted message 18449 from lobelia4cosmetics into DB.
+2025-07-12 11:02:29,215 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:29,413 - INFO - Downloaded image 18449 from lobelia4cosmetics
+2025-07-12 11:02:29,488 - INFO - Inserted message 18448 from lobelia4cosmetics into DB.
+2025-07-12 11:02:29,574 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:29,733 - INFO - Downloaded image 18448 from lobelia4cosmetics
+2025-07-12 11:02:29,803 - INFO - Inserted message 18447 from lobelia4cosmetics into DB.
+2025-07-12 11:02:29,877 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:30,114 - INFO - Downloaded image 18447 from lobelia4cosmetics
+2025-07-12 11:02:30,185 - INFO - Inserted message 18446 from lobelia4cosmetics into DB.
+2025-07-12 11:02:30,255 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:30,390 - INFO - Downloaded image 18446 from lobelia4cosmetics
+2025-07-12 11:02:30,475 - INFO - Inserted message 18445 from lobelia4cosmetics into DB.
+2025-07-12 11:02:30,540 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:30,717 - INFO - Downloaded image 18445 from lobelia4cosmetics
+2025-07-12 11:02:30,786 - INFO - Inserted message 18444 from lobelia4cosmetics into DB.
+2025-07-12 11:02:30,838 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:31,022 - INFO - Downloaded image 18444 from lobelia4cosmetics
+2025-07-12 11:02:31,076 - INFO - Inserted message 18443 from lobelia4cosmetics into DB.
+2025-07-12 11:02:31,126 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:31,321 - INFO - Downloaded image 18443 from lobelia4cosmetics
+2025-07-12 11:02:31,402 - INFO - Inserted message 18442 from lobelia4cosmetics into DB.
+2025-07-12 11:02:31,481 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:31,676 - INFO - Downloaded image 18442 from lobelia4cosmetics
+2025-07-12 11:02:31,751 - INFO - Inserted message 18441 from lobelia4cosmetics into DB.
+2025-07-12 11:02:31,812 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:32,272 - INFO - Downloaded image 18441 from lobelia4cosmetics
+2025-07-12 11:02:32,341 - INFO - Inserted message 18440 from lobelia4cosmetics into DB.
+2025-07-12 11:02:32,395 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:32,547 - INFO - Downloaded image 18440 from lobelia4cosmetics
+2025-07-12 11:02:32,601 - INFO - Inserted message 18439 from lobelia4cosmetics into DB.
+2025-07-12 11:02:32,676 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:32,867 - INFO - Downloaded image 18439 from lobelia4cosmetics
+2025-07-12 11:02:32,938 - INFO - Inserted message 18438 from lobelia4cosmetics into DB.
+2025-07-12 11:02:33,003 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:33,188 - INFO - Downloaded image 18438 from lobelia4cosmetics
+2025-07-12 11:02:33,257 - INFO - Inserted message 18437 from lobelia4cosmetics into DB.
+2025-07-12 11:02:33,332 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:33,561 - INFO - Downloaded image 18437 from lobelia4cosmetics
+2025-07-12 11:02:33,655 - INFO - Inserted message 18436 from lobelia4cosmetics into DB.
+2025-07-12 11:02:33,716 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:33,882 - INFO - Downloaded image 18436 from lobelia4cosmetics
+2025-07-12 11:02:33,940 - INFO - Inserted message 18435 from lobelia4cosmetics into DB.
+2025-07-12 11:02:34,007 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:34,200 - INFO - Downloaded image 18435 from lobelia4cosmetics
+2025-07-12 11:02:34,246 - INFO - Inserted message 18434 from lobelia4cosmetics into DB.
+2025-07-12 11:02:34,307 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:34,721 - INFO - Downloaded image 18434 from lobelia4cosmetics
+2025-07-12 11:02:34,793 - INFO - Inserted message 18433 from lobelia4cosmetics into DB.
+2025-07-12 11:02:34,882 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-07-12 11:02:35,052 - INFO - Downloaded image 18433 from lobelia4cosmetics
+2025-07-12 11:02:35,056 - INFO - Scraping channel: tenamereja
+2025-07-12 11:02:35,613 - INFO - Inserted message 50021 from tenamereja into DB.
+2025-07-12 11:02:35,655 - INFO - Inserted message 50020 from tenamereja into DB.
+2025-07-12 11:02:35,692 - INFO - Inserted message 50019 from tenamereja into DB.
+2025-07-12 11:02:35,719 - INFO - Inserted message 50018 from tenamereja into DB.
+2025-07-12 11:02:35,751 - INFO - Inserted message 50017 from tenamereja into DB.
+2025-07-12 11:02:35,780 - INFO - Inserted message 50015 from tenamereja into DB.
+2025-07-12 11:02:35,811 - INFO - Inserted message 50014 from tenamereja into DB.
+2025-07-12 11:02:35,844 - INFO - Inserted message 50013 from tenamereja into DB.
+2025-07-12 11:02:35,867 - INFO - Inserted message 50012 from tenamereja into DB.
+2025-07-12 11:02:35,891 - INFO - Inserted message 50011 from tenamereja into DB.
+2025-07-12 11:02:35,916 - INFO - Inserted message 50010 from tenamereja into DB.
+2025-07-12 11:02:35,944 - INFO - Inserted message 50008 from tenamereja into DB.
+2025-07-12 11:02:35,968 - INFO - Inserted message 50007 from tenamereja into DB.
+2025-07-12 11:02:35,995 - INFO - Inserted message 50006 from tenamereja into DB.
+2025-07-12 11:02:36,020 - INFO - Inserted message 50005 from tenamereja into DB.
+2025-07-12 11:02:36,050 - INFO - Inserted message 50004 from tenamereja into DB.
+2025-07-12 11:02:36,077 - INFO - Inserted message 50003 from tenamereja into DB.
+2025-07-12 11:02:36,103 - INFO - Inserted message 50002 from tenamereja into DB.
+2025-07-12 11:02:36,132 - INFO - Inserted message 50001 from tenamereja into DB.
+2025-07-12 11:02:36,157 - INFO - Inserted message 50000 from tenamereja into DB.
+2025-07-12 11:02:36,183 - INFO - Inserted message 49999 from tenamereja into DB.
+2025-07-12 11:02:36,210 - INFO - Inserted message 49998 from tenamereja into DB.
+2025-07-12 11:02:36,237 - INFO - Inserted message 49997 from tenamereja into DB.
+2025-07-12 11:02:36,266 - INFO - Inserted message 49996 from tenamereja into DB.
+2025-07-12 11:02:36,291 - INFO - Inserted message 49995 from tenamereja into DB.
+2025-07-12 11:02:36,320 - INFO - Inserted message 49994 from tenamereja into DB.
+2025-07-12 11:02:36,350 - INFO - Inserted message 49993 from tenamereja into DB.
+2025-07-12 11:02:36,380 - INFO - Inserted message 49992 from tenamereja into DB.
+2025-07-12 11:02:36,413 - INFO - Inserted message 49991 from tenamereja into DB.
+2025-07-12 11:02:36,441 - INFO - Inserted message 49990 from tenamereja into DB.
+2025-07-12 11:02:36,468 - INFO - Inserted message 49989 from tenamereja into DB.
+2025-07-12 11:02:36,507 - INFO - Inserted message 49988 from tenamereja into DB.
+2025-07-12 11:02:36,535 - INFO - Inserted message 49987 from tenamereja into DB.
+2025-07-12 11:02:36,578 - INFO - Inserted message 49985 from tenamereja into DB.
+2025-07-12 11:02:36,602 - INFO - Inserted message 49984 from tenamereja into DB.
+2025-07-12 11:02:36,630 - INFO - Inserted message 49983 from tenamereja into DB.
+2025-07-12 11:02:36,656 - INFO - Inserted message 49982 from tenamereja into DB.
+2025-07-12 11:02:36,678 - INFO - Inserted message 49981 from tenamereja into DB.
+2025-07-12 11:02:36,700 - INFO - Inserted message 49980 from tenamereja into DB.
+2025-07-12 11:02:36,723 - INFO - Inserted message 49979 from tenamereja into DB.
+2025-07-12 11:02:36,749 - INFO - Inserted message 49978 from tenamereja into DB.
+2025-07-12 11:02:36,774 - INFO - Inserted message 49977 from tenamereja into DB.
+2025-07-12 11:02:36,802 - INFO - Inserted message 49975 from tenamereja into DB.
+2025-07-12 11:02:36,832 - INFO - Inserted message 49974 from tenamereja into DB.
+2025-07-12 11:02:36,858 - INFO - Inserted message 49973 from tenamereja into DB.
+2025-07-12 11:02:36,886 - INFO - Inserted message 49972 from tenamereja into DB.
+2025-07-12 11:02:36,916 - INFO - Inserted message 49971 from tenamereja into DB.
+2025-07-12 11:02:36,943 - INFO - Inserted message 49970 from tenamereja into DB.
+2025-07-12 11:02:36,970 - INFO - Inserted message 49969 from tenamereja into DB.
+2025-07-12 11:02:37,003 - INFO - Inserted message 49968 from tenamereja into DB.
+2025-07-12 11:02:37,037 - INFO - Inserted message 49967 from tenamereja into DB.
+2025-07-12 11:02:37,068 - INFO - Inserted message 49966 from tenamereja into DB.
+2025-07-12 11:02:37,102 - INFO - Inserted message 49965 from tenamereja into DB.
+2025-07-12 11:02:37,132 - INFO - Inserted message 49964 from tenamereja into DB.
+2025-07-12 11:02:37,161 - INFO - Inserted message 49963 from tenamereja into DB.
+2025-07-12 11:02:37,194 - INFO - Inserted message 49962 from tenamereja into DB.
+2025-07-12 11:02:37,223 - INFO - Inserted message 49961 from tenamereja into DB.
+2025-07-12 11:02:37,259 - INFO - Inserted message 49960 from tenamereja into DB.
+2025-07-12 11:02:37,292 - INFO - Inserted message 49959 from tenamereja into DB.
+2025-07-12 11:02:37,324 - INFO - Inserted message 49958 from tenamereja into DB.
+2025-07-12 11:02:37,348 - INFO - Inserted message 49957 from tenamereja into DB.
+2025-07-12 11:02:37,371 - INFO - Inserted message 49956 from tenamereja into DB.
+2025-07-12 11:02:37,400 - INFO - Inserted message 49955 from tenamereja into DB.
+2025-07-12 11:02:37,424 - INFO - Inserted message 49954 from tenamereja into DB.
+2025-07-12 11:02:37,448 - INFO - Inserted message 49953 from tenamereja into DB.
+2025-07-12 11:02:37,473 - INFO - Inserted message 49952 from tenamereja into DB.
+2025-07-12 11:02:37,499 - INFO - Inserted message 49951 from tenamereja into DB.
+2025-07-12 11:02:37,526 - INFO - Inserted message 49950 from tenamereja into DB.
+2025-07-12 11:02:37,558 - INFO - Inserted message 49949 from tenamereja into DB.
+2025-07-12 11:02:37,586 - INFO - Inserted message 49948 from tenamereja into DB.
+2025-07-12 11:02:37,615 - INFO - Inserted message 49947 from tenamereja into DB.
+2025-07-12 11:02:37,648 - INFO - Inserted message 49946 from tenamereja into DB.
+2025-07-12 11:02:37,682 - INFO - Inserted message 49944 from tenamereja into DB.
+2025-07-12 11:02:37,713 - INFO - Inserted message 49943 from tenamereja into DB.
+2025-07-12 11:02:37,748 - INFO - Inserted message 49942 from tenamereja into DB.
+2025-07-12 11:02:37,780 - INFO - Inserted message 49941 from tenamereja into DB.
+2025-07-12 11:02:37,813 - INFO - Inserted message 49940 from tenamereja into DB.
+2025-07-12 11:02:37,844 - INFO - Inserted message 49939 from tenamereja into DB.
+2025-07-12 11:02:37,880 - INFO - Inserted message 49938 from tenamereja into DB.
+2025-07-12 11:02:37,910 - INFO - Inserted message 49937 from tenamereja into DB.
+2025-07-12 11:02:37,943 - INFO - Inserted message 49936 from tenamereja into DB.
+2025-07-12 11:02:37,977 - INFO - Inserted message 49935 from tenamereja into DB.
+2025-07-12 11:02:38,010 - INFO - Inserted message 49934 from tenamereja into DB.
+2025-07-12 11:02:38,046 - INFO - Inserted message 49933 from tenamereja into DB.
+2025-07-12 11:02:38,080 - INFO - Inserted message 49932 from tenamereja into DB.
+2025-07-12 11:02:38,112 - INFO - Inserted message 49931 from tenamereja into DB.
+2025-07-12 11:02:38,147 - INFO - Inserted message 49929 from tenamereja into DB.
+2025-07-12 11:02:38,181 - INFO - Inserted message 49928 from tenamereja into DB.
+2025-07-12 11:02:38,216 - INFO - Inserted message 49927 from tenamereja into DB.
+2025-07-12 11:02:38,251 - INFO - Inserted message 49925 from tenamereja into DB.
+2025-07-12 11:02:38,285 - INFO - Inserted message 49924 from tenamereja into DB.
+2025-07-12 11:02:38,320 - INFO - Inserted message 49922 from tenamereja into DB.
+2025-07-12 11:02:38,359 - INFO - Inserted message 49921 from tenamereja into DB.
+2025-07-12 11:02:38,395 - INFO - Inserted message 49920 from tenamereja into DB.
+2025-07-12 11:02:38,434 - INFO - Inserted message 49919 from tenamereja into DB.
+2025-07-12 11:02:38,473 - INFO - Inserted message 49916 from tenamereja into DB.
+2025-07-12 11:02:38,474 - INFO - Scraping finished.
+2025-07-12 11:02:38,475 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-07-12 11:02:38,476 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
