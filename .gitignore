@@ -1,5 +1,87 @@
+# Environment variables and secrets
 .env
+.env.local
+.env.*.local
+
+# Data directories (raw data, images, etc.)
 data/
 models/
+
+# Python virtual environment
 venv/
+env/
+.venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# dbt artifacts and logs
+src/dbt/target/
+src/dbt/logs/
+src/dbt/dbt_packages/
+src/dbt/dbt_modules/
+
+# Telegram session files
+*.session
+anon.session
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Docker volumes and temporary files
+.dockerignore
+docker-compose.override.yml
+
+# Test coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Local development files
+local/
+temp/
+tmp/
 
