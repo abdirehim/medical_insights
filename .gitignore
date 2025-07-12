@@ -34,11 +34,11 @@ wheels/
 .installed.cfg
 *.egg
 
-# dbt artifacts and logs
-src/dbt/target/
-src/dbt/logs/
-src/dbt/dbt_packages/
-src/dbt/dbt_modules/
+# # dbt artifacts and logs
+# src/dbt/target/
+# src/dbt/logs/
+# src/dbt/dbt_packages/
+# src/dbt/dbt_modules/
 
 # Telegram session files
 *.session
