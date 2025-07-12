@@ -12,6 +12,7 @@ services:
       - db
     environment:
       - DATABASE_URL=postgresql://user:password@db:5432/medical_insights
+    command: ["tail", "-f", "/dev/null"]
 
   db:
     image: postgres:13
