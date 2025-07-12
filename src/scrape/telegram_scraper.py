@@ -1,4 +1,8 @@
+"""
+telegram_scraper.py
 
+Scrapes messages and images from public Ethiopian medical Telegram channels, saves raw data as JSON, and loads it into PostgreSQL for downstream analytics. Implements robust error handling, deduplication, and logging for production-ready data engineering pipelines.
+"""
 
 import os
 import json
@@ -13,12 +17,12 @@ from telethon.errors.rpcerrorlist import FloodWaitError, ChannelPrivateError
 # --- Configuration ---
 load_dotenv()
 
-API_ID = os.getenv("TELEGRAM_API_ID")
-API_HASH = os.getenv("TELEGRAM_API_HASH")
-PHONE = os.getenv("TELEGRAM_PHONE")
-PASSWORD = os.getenv("TELEGRAM_PASSWORD")
-TELEGRAM_CODE = os.getenv("TELEGRAM_CODE")
-DATABASE_URL = os.getenv("DATABASE_URL")
+API_ID = os.getenv("TELEGRAM_API_ID")  # Telegram API ID from .env
+API_HASH = os.getenv("TELEGRAM_API_HASH")  # Telegram API Hash from .env
+PHONE = os.getenv("TELEGRAM_PHONE")  # Telegram phone number
+PASSWORD = os.getenv("TELEGRAM_PASSWORD")  # Telegram password (if 2FA enabled)
+TELEGRAM_CODE = os.getenv("TELEGRAM_CODE")  # Telegram login code (if needed)
+DATABASE_URL = os.getenv("DATABASE_URL")  # PostgreSQL connection string
 
 # --- Logging Setup ---
 logging.basicConfig(
@@ -31,6 +35,7 @@ logging.basicConfig(
 )
 
 # --- Channel Lists ---
+# List of Telegram channels to scrape for text and images
 TEXT_CHANNELS = [
     "Thequorachannel",
     "lobelia4cosmetics",
@@ -46,7 +51,7 @@ IMAGE_CHANNELS = [
 
 # --- Database Functions ---
 def get_db_connection():
-    """Establishes a connection to the PostgreSQL database."""
+    """Establishes a connection to the PostgreSQL database using DATABASE_URL."""
     try:
         conn = psycopg2.connect(DATABASE_URL)
         return conn
@@ -55,7 +60,7 @@ def get_db_connection():
         return None
 
 def setup_database():
-    """Sets up the necessary table for raw message storage."""
+    """Creates the raw.telegram_messages table if it does not exist."""
     conn = get_db_connection()
     if conn:
         with conn.cursor() as cur:
@@ -75,7 +80,7 @@ def setup_database():
         logging.info("Database schema and table verified.")
 
 def insert_message_to_db(channel_name, message_id, message_data):
-    """Inserts a single message into the raw.telegram_messages table."""
+    """Inserts a single message into the raw.telegram_messages table. Uses ON CONFLICT to avoid duplicates."""
     conn = None
     try:
         conn = get_db_connection()
@@ -101,7 +106,7 @@ def insert_message_to_db(channel_name, message_id, message_data):
 
 # --- Data Lake Functions ---
 def save_to_json(channel_name, message_data):
-    """Saves message data to a local JSON file."""
+    """Saves message data to a local JSON file in data/raw/telegram_messages/YYYY-MM-DD/channel_name.json."""
     date_str = datetime.now().strftime("%Y-%m-%d")
     dir_path = os.path.join("data", "raw", "telegram_messages", date_str)
     os.makedirs(dir_path, exist_ok=True)
@@ -113,7 +118,7 @@ def save_to_json(channel_name, message_data):
 
 # --- Scraper ---
 async def scrape_channel(client, channel_name):
-    """Scrapes a single Telegram channel for messages and images."""
+    """Scrapes a single Telegram channel for messages and images. Downloads images for IMAGE_CHANNELS."""
     logging.info(f"Scraping channel: {channel_name}")
     try:
         entity = await client.get_entity(channel_name)
@@ -149,7 +154,7 @@ async def scrape_channel(client, channel_name):
 
 # --- Main Execution ---
 async def main():
-    """Main function to orchestrate the scraping process."""
+    """Main function to orchestrate the scraping process: sets up DB, authenticates, and scrapes all channels."""
     if not all([API_ID, API_HASH, DATABASE_URL]):
         logging.error("Missing required environment variables. Exiting.")
         return
@@ -170,4 +175,6 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+# End of script
 

@@ -5,6 +5,32 @@
 
 This repository contains a production-ready, end-to-end data pipeline that extracts data from public Ethiopian medical Telegram channels, enriches it, and serves insights through a high-performance analytical API. The project is designed to answer key business questions about the availability, pricing, and trends of medical products.
 
+## Table of Contents
+- [For Reviewers](#for-reviewers)
+- [Overview](#overview)
+- [Quick Start](#quick-start)
+- [Project Structure](#project-structure)
+- [How it Works](#how-it-works)
+- [Sample Data Insights](#sample-data-insights)
+- [Usage Examples](#usage-examples)
+- [Data Quality & Testing](#data-quality--testing)
+- [Troubleshooting](#troubleshooting)
+- [dbt Project Location](#dbt-project-location)
+- [Project Status](#project-status)
+
+## For Reviewers
+All code, dbt models, and documentation are included in this repository. See the Quick Start and dbt Project Location sections for details on setup, usage, and where to find all transformation logic.
+
+## Overview
+This project is a production-ready, modular data pipeline for extracting, transforming, and analyzing Ethiopian medical data from public Telegram channels. It features:
+- Automated scraping of messages and images using Telethon
+- Storage of raw data in both JSON files and PostgreSQL
+- Data transformation and modeling with dbt (star schema, deduplication, product mention extraction)
+- Comprehensive data quality testing and documentation
+- (Planned) Image enrichment with YOLOv8, analytics API with FastAPI, and orchestration with Dagster
+
+The pipeline is fully Dockerized, CI-enabled, and designed for transparency, scalability, and real-world data quality challenges.
+
 ## Business Problem
 
 The Ethiopian pharmaceutical and medical supplies market often relies on informal communication channels like Telegram for price discovery and stock updates. This project aims to harness this publicly available data to generate structured, actionable insights for healthcare providers, suppliers, and regulators.
@@ -183,3 +209,15 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## dbt Project Location
+
+All dbt transformation code, including `dbt_project.yml`, models, and schema tests, is located in `src/dbt/`.
+- Main config: `src/dbt/dbt_project.yml`
+- Models: `src/dbt/models/`
+- Tests and documentation: `src/dbt/models/staging/schema.yml`, `src/dbt/models/marts/schema.yml`
+
+To run dbt:
+```sh
+docker-compose exec app dbt run --project-dir /app/src/dbt
+```
