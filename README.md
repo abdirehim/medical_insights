@@ -155,6 +155,35 @@ The transformed data is modeled into a star schema to facilitate efficient analy
 - **`dim_channels`**: A dimension table with metadata about each Telegram channel.
 - **`dim_dates`**: A date dimension to allow for easy time-based analysis.
 
+## Data Quality & Testing
+
+- The pipeline deduplicates messages per `(channel_name, message_id)` to ensure data integrity.
+- Product mentions are extracted using a regex tailored for Ethiopian pharmaceuticals and medical terms.
+- dbt models are tested for uniqueness, not-null, and referential integrity.
+- To run all dbt tests:
+  ```sh
+  docker-compose exec app dbt test --project-dir /app/src/dbt
+  ```
+- To generate and view dbt documentation:
+  ```sh
+  docker-compose exec app dbt docs generate --project-dir /app/src/dbt
+  docker-compose exec app dbt docs serve --project-dir /app/src/dbt --host 0.0.0.0 --profiles-dir /app/src/dbt
+  ```
+  Then open [http://localhost:8080](http://localhost:8080) in your browser.
+
+**Note:** Some real-world data may have missing fields (e.g., message date), which are flagged by dbt tests for transparency.
+
+## Project Status
+
+- **Task 0: Project Setup & Environment** — ✅ Complete
+- **Task 1: Data Scraping and Collection** — ✅ Complete
+- **Task 2: Data Modeling and Transformation (dbt)** — ✅ Complete
+- **Task 3: Data Enrichment with YOLOv8** — ⏳ Not started
+- **Task 4: Analytical API (FastAPI)** — ⏳ Not started
+- **Task 5: Orchestration (Dagster)** — ⏳ Not started
+
+**Next up:** YOLOv8 image enrichment, then API and orchestration.
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue.
