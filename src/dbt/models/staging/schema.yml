@@ -1,0 +1,46 @@
+version: 2
+
+sources:
+  - name: raw
+    database: medical_insights
+    schema: raw
+    tables:
+      - name: telegram_messages
+
+models:
+  - name: stg_telegram_messages
+    description: "Staging model for raw Telegram messages, cleaning and extracting key information."
+    columns:
+      - name: id
+        description: "Primary key from the raw table."
+        tests:
+          - not_null
+      - name: message_id
+        description: "Unique ID of the Telegram message (unique per channel)."
+        tests:
+          - not_null
+      - name: channel_name
+        description: "Name of the Telegram channel."
+      # Custom test for uniqueness of (channel_name, message_id)
+      - name: channel_message_unique
+        description: "Composite key for channel and message_id. Must be unique."
+        tests:
+          - unique
+      - name: message_text
+        description: "Content of the Telegram message."
+      - name: message_date
+        description: "Timestamp when the message was posted."
+      - name: views_count
+        description: "Number of views the message received."
+      - name: forwards_count
+        description: "Number of times the message was forwarded."
+      - name: replies_count
+        description: "Number of replies to the message."
+      - name: has_reactions
+        description: "Boolean indicating if the message has reactions."
+      - name: has_photo
+        description: "Boolean indicating if the message contains a photo."
+      - name: product_mentions
+        description: "Array of product or drug mentions extracted from the message."
+      - name: scraped_at
+        description: "Timestamp when the message was scraped."

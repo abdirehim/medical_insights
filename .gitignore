@@ -5,7 +5,7 @@
 
 # Data directories (raw data, images, etc.)
 data/
-models/
+# models/
 
 # Python virtual environment
 venv/
