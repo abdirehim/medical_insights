@@ -196,15 +196,49 @@ The transformed data is modeled into a star schema to facilitate efficient analy
 - **Task 0: Project Setup & Environment** — ✅ Complete
 - **Task 1: Data Scraping and Collection** — ✅ Complete
 - **Task 2: Data Modeling and Transformation (dbt)** — ✅ Complete
-- **Task 3: Data Enrichment with YOLOv8** — ⏳ Not started
-- **Task 4: Analytical API (FastAPI)** — ⏳ Not started
-- **Task 5: Orchestration (Dagster)** — ⏳ Not started
+- **Task 3: Data Enrichment with YOLOv8** — ✅ Complete
+- **Task 4: Analytical API (FastAPI)** — ✅ Complete
+- **Task 5: Orchestration (Dagster)** — ✅ Complete
 
-**Next up:** YOLOv8 image enrichment, then API and orchestration.
+## FastAPI Analytical API
+
+The API exposes analytical endpoints for top products, channel activity, and message search.
+
+- **Run the API:**  
+  ```sh
+  docker-compose up api
+  ```
+- **Docs:** [http://localhost:8001/docs](http://localhost:8001/docs)
+- **Endpoints:**  
+  - `/api/reports/top-products?limit=10`
+  - `/api/channels/{channel_name}/activity`
+  - `/api/search/messages?query=paracetamol`
+- **Code:** `src/api/`
+
+## YOLOv8 Image Enrichment
+
+The enrichment step uses YOLOv8 to detect and classify objects in images scraped from Telegram.
+
+- **Run enrichment:**  
+  ```sh
+  docker-compose run --rm app python src/enrichment/yolo_enrich.py
+  ```
+- **Code:** `src/enrichment/yolo_enrich.py`
+
+## Dagster Orchestration
+
+Dagster orchestrates the entire pipeline, scheduling and monitoring all steps.
+
+- **Run Dagster UI:**  
+  ```sh
+  dagster dev -f src/orchestration/pipeline.py
+  ```
+- **UI:** [http://localhost:3000](http://localhost:3000)
+- **Pipeline code:** `src/orchestration/pipeline.py`
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue.
+Contributions are welcome! Please feel free to submit a pull request or open an issue. All code is modular, type-annotated, and tested. Please ensure new features include tests and documentation.
 
 ## License
 
@@ -219,5 +253,5 @@ All dbt transformation code, including `dbt_project.yml`, models, and schema tes
 
 To run dbt:
 ```sh
-docker-compose exec app dbt run --project-dir /app/src/dbt
+docker-compose run --rm app dbt run --project-dir /app/src/dbt --profiles-dir /app/src/dbt
 ```
